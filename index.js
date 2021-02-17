@@ -70,7 +70,7 @@ const vcard = 'BEGIN:VCARD\n'
             + 'VERSION:3.0\n'
             + 'FN: FOX BOT\n'
             + 'ORG:Owner Fox;\n'
-            + 'TEL;type=CELL;type=VOICE;waid=5521979664189:+55 21 97966-4189\n'
+            + 'TEL;type=CELL;type=VOICE;waid=5568999959745:+55 68 99995-9734\n'
             + 'END:VCARD'
 
 prefix = "."
@@ -79,7 +79,7 @@ rdaftar = "OBRIGADO POR SE REGISTAR PARA SER UM MEMBRO DO FOX 😁"
 rmenu = "Fox"
 limitt = 10
 ban = []
-userpremium = ["5521979664189@s.whatsapp.net"]
+userpremium = ["5568999959734@s.whatsapp.net"]
 
 function kyun(seconds){
   function pad(s){
@@ -202,7 +202,7 @@ async function starts() {
 			}
 
 			const botNumber = client.user.jid
-			const ownerNumber = ["5521979664189@s.whatsapp.net"] // owner number ubah aja
+			const ownerNumber = ["5568999959734@s.whatsapp.net"] // owner number ubah aja
 			const isGroup = from.endsWith('@g.us')
 			const sender = isGroup ? mek.participant : mek.key.remoteJid
 			const groupMetadata = isGroup ? await client.groupMetadata(from) : ''
